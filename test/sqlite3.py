@@ -8,6 +8,8 @@ DATABASE = '/software/PycharmProjects/test/db/flaskr.db'
 def connect_db():
     return sqlite3.connect_db(DATABASE)
 
+#just a test
+
 '''
 def init_db():
     with app.app_context():
